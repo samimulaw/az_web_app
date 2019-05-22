@@ -1,0 +1,66 @@
+[
+  {
+    "product_name": "shoe",
+    "image": "img1.jpg",
+    "price": "$40",
+    "city": "Mekelle",
+    "region": "TG",
+    "country":"Ethio"
+  },
+  {
+    "product_name": "refrigrator",
+    "image": "img2.jpg",
+    "price": "$40",
+    "city": "Mekelle",
+    "region": "TG",
+    "country":"Ethio"
+  },
+  {
+    "product_name": "Phone",
+    "image": "img3.jpg",
+    "price": "$40",
+    "city": "Mekelle",
+    "region": "TG",
+    "country":"Ethio"
+  },
+  {
+    "product_name": "Sofa",
+    "image": "img4.jpg",
+    "price": "$40",
+    "city": "Mekelle",
+    "region": "TG",
+    "country":"Ethio"
+  },
+  {
+    "product_name": "shoe",
+    "image": "img1.jpg",
+    "price": "$40",
+    "city": "Mekelle",
+    "region": "TG",
+    "country":"Ethio"
+  },
+  {
+    "product_name": "refrigrator",
+    "image": "img2.jpg",
+    "price": "$40",
+    "city": "Mekelle",
+    "region": "TG",
+    "country":"Ethio"
+  },
+  {
+    "product_name": "Phone",
+    "image": "img3.jpg",
+    "price": "$40",
+    "city": "Mekelle",
+    "region": "TG",
+    "country":"Ethio"
+  },
+  {
+    "product_name": "Sofa",
+    "image": "img4.jpg",
+    "price": "$40",
+    "city": "Mekelle",
+    "region": "TG",
+    "country":"Ethio"
+  }
+]
