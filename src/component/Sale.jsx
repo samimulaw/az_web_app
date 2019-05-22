@@ -8,7 +8,7 @@ class Sale extends React.Component {
                 {products.map((product)=>{
                    return(
                        <div className='col-md-3 col-sm-3 p-2'>
-                           <img src={require(`../imgs/${product.image}`)} width="90%"/>
+                           <img src={require(`../imgs/${product.image}`)} width="100%" height="50%"/>
                            <div>{product.product_name}</div>
                            <div>{product.price}</div>
                            <div>{product.city}</div>
