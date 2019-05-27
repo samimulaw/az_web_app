@@ -1,43 +1,47 @@
 import React from "react";
-import Catagories from "./Catagories";
-import Filter from "./Filter";
+import About from './About';
+import products from "../Sale/saleProducts";
+import rents from '../Rent/rentList';
+import Rent from './Rent';
 
 class Home extends React.Component {
+
     render() {
+        const { sales }= this.props;
+        console.log("here is the sale "+ JSON.stringify(sales));
+        const categories = [
+            {header:"Housing",  description:"You can rent, house and auto", icon: "fa-home"},
+            {header:"Sell", description:"Buy and sell new and used products ", icon:"fa-cart-plus "},
+            {header:"Services", description:"Advertise or visit services in your area", icon: "fa-handshake-o "},
+            {header:"Jobs", description:"find opening jobs in your nearest city", icon: "fa-users"}
+        ]
         return (
             <div>
-            <div className='row mx-3 '>
-            <div className=''>
-                <Catagories />
-                <Filter />
+            <div className="row mx-0">
+                {categories.map((category=>{
+                return (<About category={category}/>)
+                 }))}
             </div>
-            <div>
-            <div className="row">
-                    <div className="offset-1 col-3 home bg-secondary border p-md-3 my-4"  onClick={() => this.props.next('housing')}>
-                        <span className='fa fa-home fa-4x'/>
-                        <h2 className=''>Housing</h2>
-                        <div>You can rent, buy and sell apratments, houses, and business stores</div>
-                    </div>
-                    <div className="offset-1 col-3  bg-secondary border p-md-3 my-4" onClick={() => this.props.next('sale')}>
-                        <span className='fa fa-cart-plus fa-4x'/>
-                        <h2 className=''>Sale</h2>
-                        <div>Buy and sell new and used products you have</div>
-                    </div>
+            <div className="row mt-3">
+                {products.map((product)=>{
+                    return(
+                        <div className='col-sm-4 col-lg-3 pb-2'>
+                            <div className='bg-info border'>
+                            <img src={require(`../imgs/${product.image}`)} height="250" width="100%"/>
+                            <div>{product.product_name}</div>
+                            <div>{product.price}</div>
+                            <div>{product.city}</div>
+                            </div>
+                        </div>);
+                })}
+            </div>
+            <div className="my-3">
+                {rents.map((rent)=>{
+                   return(
+                      <Rent rent = { rent } {...this.props}/>);
+                    })}
                 </div>
-                <div className="row">
-                    <div className="offset-1 col-3 cart bg-secondary border p-md-3 my-4" onClick={() => this.props.next('services')}>
-                        <span className='fa fa-handshake-o fa-4x'/>
-                        <h2 className=''>Services</h2>
-                        <div>Buy and sell new and used products you have</div>
-                    </div>
-                    <div className="offset-1 col-3 home bg-secondary border p-md-3 my-4" onClick={() => this.props.next('jobs')}>
-                        <span className='fa fa-users fa-4x'/>
-                        <h2 className=''>Jobs</h2>
-                        <div>find opening jobs in your convientien city</div>
-                    </div>
-                </div>
-            </div>
-            </div>
+            {/*<ImageUpload/>*/}
             </div>
         )
     }

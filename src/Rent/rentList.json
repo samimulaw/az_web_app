@@ -1,26 +1,35 @@
 [
   {
-  "description": "I will be moving out from this location so i need to rent it out is it 2 BHK apartment from 06/01/2019 to 09/19/2019, it is available for two roommates, single room for each person, if interested please email me\\call\\text @732-939-5443. This location is very close to American Express (56 street), Choice Hotels, Discount tires, NationWide and USAA offices.",
+  "title": "1 Bed Room ",
+  "description": "I will be moving out from this location so i need to rent it out is it 2 BHK apartment from 06/01/2019 to 09/19/2019, it is available for two roommates, single room for each person",
   "posted_on": "12/11/20",
   "address": "kebelle 17 Mekelle",
+  "city": "Mekelle",
+  "region": "Tigray",
   "email": "abc@abc.com",
   "phone_number": "111 111 1111",
-  "image": "rental.png"
+  "image": "rentImg.jpeg"
   },
   {
-    "description": "$600/- plus electric ($30-$40) Fully Furnished Master Suite With Private Bathroom $1650 for the entire furnished apartment. Fully furnished 3Bed 3Bath apartment available immediately. You will have your private bathroom. The apartment can be privately occupied or shared between 3 people, available immediately. Amenities included in rent: Internet, Cable, 55inch TV, water, monthly cleaning maid, Indian food home delivery(food costs extra. Apartment has its own washer dryer. Tempe''s free bus - Orbit stop at the gate. Gated Community with swimming pool and volleyball court. Assigned Parking. Located across from ASU (5mins walk) in a quite neighborhood (commons on lemon), close to all major work locations, metro bus stop is 2 mins walk from the apartment, groceries and gym - 5 min walk. Call or text: 48O - 7one2 - one376",
+    "title": "2 Bed Room ",
+    "description": "$600/- plus electric ($30-$40) Fully Furnished Master Suite With Private Bathroom $1650 for the entire furnished ble immediately.  between 3 people, available immediately.",
     "posted_on": "12/11/20",
     "address": "kebelle 18 Adiss Ababa",
+    "city": "Mekelle",
+    "region": "Tigray",
     "email": "abc@abc.com",
     "phone_number": "111 111 1111",
-    "image": "rental.png"
+    "image": "rentImg.jpeg"
   },
   {
-    "description": "I will be moving out from this location so i need to rent it out is it 2 BHK apartment from 06/01/2019 to 09/19/2019, it is available for two roommates, single room for each person, if interested please email me\\call\\text @732-939-5443. This location is very close to American Express (56 street), Choice Hotels, Discount tires, NationWide and USAA offices.",
+    "title": "studio, it is furnished",
+    "description": "I will be moving out from this location so i need to rent it out is it 2 BHK apartment  interested please email",
     "posted_on": "12/11/20",
     "address": "kebelle 17 Mekelle",
+    "city": "Mekelle",
+    "region": "Tigray",
     "email": "abc@abc.com",
     "phone_number": "111 111 1111",
-    "image": "rental.png"
+    "image": "rentImg.jpeg"
   }
 ]

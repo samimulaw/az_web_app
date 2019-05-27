@@ -1,19 +1,6 @@
 import React from "react";
 
 class Catagories extends React.Component {
-    // const catagoriesList ={
-    //     electronics:"Electronics",
-    //     furniture:"Furniture",
-    //     cars_and_trucks:"Cars and Trucks",
-    //     clothing_and_shoes:"Clothing and shoes",
-    //     bussines_equipment:"Bussines Equipment",
-    //     house_hold:"House Hold",
-    //     free:"Free",
-    //     jewlery_and_accesories:"Jewlery and accesories",
-    //     books:"Books",
-    //     auto_parts:"Auto parts",
-    //     general:"General",
-    // }
     render() {
         return (
             <div className='mt-4 border'>
